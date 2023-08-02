@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #222;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    width: 60%;
+    margin: 2rem auto;
+}
+.container h1{
+    color: #ebfffc;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    
+    margin-right: 16px;
+    font-size: 18px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.btn{
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.output{
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    width: 600px;
+}
+.output h2{
+    margin-bottom: 2rem;
+}
+.output p{
+    margin-bottom: 1rem;
+}
