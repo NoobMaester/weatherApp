@@ -47,6 +47,25 @@ form{
     font-size: 18px;
 }
 
+.loading{
+    width: 5rem;
+    height: 5rem;
+    border: 10px solid #00feba;
+    border-top: 10px solid #5b548a;
+    border-radius: 100%;
+    margin: 2rem auto;
+    animation: spin 1s infinite linear;
+    display: none;
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
 .output{
     background: linear-gradient(135deg, #00feba, #5b548a);
     color: #fff;
@@ -60,4 +79,7 @@ form{
 .output h2{
     margin-bottom: 2rem;
     font-size: 48px;
+}
+.output img{
+    width: 150px;
 }
