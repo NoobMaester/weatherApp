@@ -16,7 +16,7 @@ const hideLoading = () => {
 const checkWeather = async (city) => {
   displayLoading();
   const response = await fetch(
-    `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`
+    `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`
   );
   const data = await response.json();
   hideLoading();
